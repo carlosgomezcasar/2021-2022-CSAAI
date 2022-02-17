@@ -1,11 +1,13 @@
 /* hoja de estilos css*/
 
 body {
+    background: no-repeat;
     background-image: url("https://carlosgomezcasar.github.io/2021-2022-CSAAI-Practicas/solomillo.jpg");
+    background-size: cover;
   }
 
 h1  {
-    color: rgb(196, 142, 196);
+    color: rgb(189, 124, 189);
   }
 p {
       color: whitesmoke;
@@ -18,3 +20,25 @@ li {
 h2  {
     color: rgb(189, 124, 189);
   }
+
+
+  leftcolumn{
+    font-family: sans-serif;
+    float: left;
+    width: 25%;
+    padding: 25px;
+    /*padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;*/
+    outline-style: solid;
+    outline-color: rgb(189, 124, 189);
+    outline-offset: -8px;
+}
+  rightcolumn{
+    float: left;
+    width: 65%;
+    padding: 10px;
+    outline-style: solid;
+    outline-color: rgb(189, 124, 189);
+    outline-offset: -8px;
+}
