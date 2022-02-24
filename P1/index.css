@@ -34,15 +34,8 @@ h2  {
     background-color: whitesmoke;
 }
 
-.centrado{
-  margin-left: 77px;
-  margin-right: 2px;
-}
-
-.marco img{
-  border: 1px rgb(189, 124, 189);
-  text-align: center;
-
+.centrado {
+   text-align: center;
 }
 
   leftcolumn{
