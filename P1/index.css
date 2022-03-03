@@ -4,6 +4,7 @@ body {
     background: no-repeat;
     background-image: url("https://carlosgomezcasar.github.io/2021-2022-CSAAI-Practicas/solomillo.jpg");
     background-size: cover;
+    font-family: sans-serif;
   }
 
 h1  {
@@ -18,6 +19,7 @@ h1  {
   
 p {
     color: whitesmoke;
+    font-family: sans-serif;
   }
 
 li {
@@ -39,6 +41,7 @@ h2  {
 }
 
   leftcolumn{
+    font-size: small;
     font-family: sans-serif;
     float: left;
     width: 25%;
@@ -51,6 +54,8 @@ h2  {
     outline-offset: -8px;
 }
   rightcolumn{
+    font-size: small;
+    font-family: sans-serif;
     float: left;
     width: 65%;
     padding: 10px;
