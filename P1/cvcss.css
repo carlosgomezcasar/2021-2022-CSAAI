@@ -1,13 +1,32 @@
 /* hoja de estilos css*/
 
 body {
-    background: no-repeat;
-    background-image: url("https://carlosgomezcasar.github.io/2021-2022-CSAAI-Practicas/solomillo.jpg");
-    background-size: cover;
-    font-family: sans-serif;
-  }
+  background: no-repeat;
+  background-image: url("https://carlosgomezcasar.github.io/2021-2022-CSAAI-Practicas/solomillo.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+}
 
 h1  {
+text-align: center;
+color: rgb(189, 124, 189);
+padding: 10px;
+outline-style: solid;
+outline-color: rgb(189, 124, 189);
+outline-offset: -2px;
+background-color: whitesmoke;
+}
+
+p {
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+li {
+  color: whitesmoke;
+}
+
+h2  {
   text-align: center;
   color: rgb(189, 124, 189);
   padding: 10px;
@@ -15,51 +34,34 @@ h1  {
   outline-color: rgb(189, 124, 189);
   outline-offset: -2px;
   background-color: whitesmoke;
-  }
-  
-p {
-    color: whitesmoke;
-    font-family: sans-serif;
-  }
-
-li {
-    color: whitesmoke;
-  }
-
-h2  {
-    text-align: center;
-    color: rgb(189, 124, 189);
-    padding: 10px;
-    outline-style: solid;
-    outline-color: rgb(189, 124, 189);
-    outline-offset: -2px;
-    background-color: whitesmoke;
 }
 
 .centrado {
-   text-align: center;
+ text-align: center;
 }
 
-  leftcolumn{
-    font-size: small;
-    font-family: sans-serif;
-    float: left;
-    width: 25%;
-    padding: 25px;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    outline-style: solid;
-    outline-color: rgb(189, 124, 189);
-    outline-offset: -8px;
+leftcolumn{
+  font-size: small;
+  font-family: sans-serif;
+  float: left;
+  width: 25%;
+  padding: 25px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  outline-style: solid;
+  outline-color: rgb(189, 124, 189);
+  outline-offset: -8px;
 }
-  rightcolumn{
-    font-size: small;
-    font-family: sans-serif;
-    float: left;
-    width: 65%;
-    padding: 10px;
-    outline-style: solid;
-    outline-color: rgb(189, 124, 189);
-    outline-offset: -8px;
+rightcolumn{
+  font-size: small;
+  font-family: sans-serif;
+  float: left;
+  width: 65%;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 68px;
+  outline-style: solid;
+  outline-color: rgb(189, 124, 189);
+  outline-offset: -8px;
 }
