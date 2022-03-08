@@ -16,5 +16,5 @@ var logo = document.getElementById("logo-urjc");
 logo.onload = ()=> {
   //-- Insertar la imagen en el canvas, una vez que
   //-- ya esté cargada!
-  ctx.drawImage(logo, 15,18);
+  ctx.drawImage(logo, 10,12);
 };
