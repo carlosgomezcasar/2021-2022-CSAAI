@@ -1,14 +1,20 @@
-//-- Leer el elemento párrafo test2
-const test2 = document.getElementById('test2')
+console.log("Ejecutando JS...");
 
-//-- Obtener el elemento párrafo 1 para modificarlo
-const test1 = document.getElementById('test1')
+const botones = document.getElementsByClassName("digito")
 
-//-- Configurar el manejador para el evento de
-//-- pulsación de botón
-test2.onclick = () => {
-  console.log("Click sobre el párrafo 2...")
+//-- Función de retrollamada de los botones
+//-- botones de la clase dígito
+function digito(value)
+{
+  console.log("Valor: " + value);
+}
 
-  //-- Cambiar su texto
-  test1.innerHTML = "¡TEXTO CAMBIADO!"
+for (let boton of botones) {
+
+  //-- Establecer la funcion de llamada del boton i
+  //-- El parámetro ev.target contiene el boton
+  //-- que ha recibido el click
+  boton.onclick = (ev) => {
+    digito(ev.target.value)
+  }
 }

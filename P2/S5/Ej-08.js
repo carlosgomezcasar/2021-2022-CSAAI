@@ -1,10 +1,7 @@
-console.log("Ejecutando js...")
+console.log("Ejecutando JS...");
 
-//-- Leer el párrafo identificado como test
-const test = document.getElementById('test')
+const botones = document.getElementsByClassName("digito");
 
-//-- Configurar el manejador para el evento de
-//-- pulsación de botón
-test.onclick = () => {
-  console.log("Click sobre el párrafo...")
+for (let boton of botones) {
+    console.log("Boton: " +  boton.value)
 }
