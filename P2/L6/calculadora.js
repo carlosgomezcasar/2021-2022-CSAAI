@@ -83,7 +83,7 @@ suma.onclick = (ev) => {
 resta.onclick = (ev) => {
 
     //-- Insertar simbolo de sumar
-    display.innerHTML -= ev.target.value;
+    display.innerHTML += ev.target.value;
  
 }
 
