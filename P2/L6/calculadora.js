@@ -5,8 +5,8 @@ igual = document.getElementById("igual")
 clear = document.getElementById("clear")
 suma = document.getElementById("suma")
 resta = document.getElementById("resta")
-mult = document.getElementById("multiplicacion")
-div = document.getElementById("division")
+multiplicacion = document.getElementById("multiplicacion")
+division = document.getElementById("division")
 
 //-- Estados de la calculadora
 const ESTADO = {
@@ -90,7 +90,7 @@ resta.onclick = (ev) => {
 }
 
 //-- Operación de dividir
-resta.onclick = (ev) => {
+division.onclick = (ev) => {
 
     //-- Insertar simbolo de dividir
     display.innerHTML += ev.target.value;
@@ -98,7 +98,7 @@ resta.onclick = (ev) => {
 }
 
 //-- Operación de multiplicar
-resta.onclick = (ev) => {
+multiplicacion.onclick = (ev) => {
 
     //-- Insertar simbolo de multiplicar
     display.innerHTML += ev.target.value;
