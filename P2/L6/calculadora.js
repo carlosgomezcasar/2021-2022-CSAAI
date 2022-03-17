@@ -86,7 +86,7 @@ resta.onclick = (ev) => {
 
     //-- Insertar simbolo de sumar
     display.innerHTML += ev.target.value;
- 
+
 }
 
 //-- Operación de dividir
@@ -94,7 +94,7 @@ resta.onclick = (ev) => {
 
     //-- Insertar simbolo de dividir
     display.innerHTML += ev.target.value;
- 
+    
 }
 
 //-- Operación de multiplicar
