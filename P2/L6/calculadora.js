@@ -7,6 +7,7 @@ suma = document.getElementById("suma")
 resta = document.getElementById("resta")
 multiplicacion = document.getElementById("multiplicacion")
 division = document.getElementById("division")
+exponente = document.getElementById("exponente")
 
 //-- Estados de la calculadora
 const ESTADO = {
@@ -101,6 +102,14 @@ division.onclick = (ev) => {
 multiplicacion.onclick = (ev) => {
 
     //-- Insertar simbolo de multiplicar
+    display.innerHTML += ev.target.value;
+
+}
+
+//-- Operación de elevar
+exponente.onclick = (ev) => {
+
+    //-- Insertar simbolo de elevar
     display.innerHTML += ev.target.value;
 
 }
