@@ -93,8 +93,7 @@ resta.onclick = (ev) => {
 division.onclick = (ev) => {
 
     //-- Insertar simbolo de dividir
-    display.innerHTML += ev.target.valuediv;
-    //cambia porque el simbolo de dividir en js es / en vez de ÷
+    display.innerHTML += ev.target.value;
     
 }
 
