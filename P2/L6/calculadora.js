@@ -78,7 +78,7 @@ suma.onclick = (ev) => {
     //-- sólo se debe permitir insertar el operador
     //-- en el estado OP1, y debe cambiar el estado
     //-- a OPERATION (según el diagrama de estados)
-  
+
 }
 
 //-- Operación de restar
@@ -94,7 +94,7 @@ division.onclick = (ev) => {
 
     //-- Insertar simbolo de dividir
     display.innerHTML += ev.target.value;
-    
+
 }
 
 //-- Operación de multiplicar
@@ -102,7 +102,7 @@ multiplicacion.onclick = (ev) => {
 
     //-- Insertar simbolo de multiplicar
     display.innerHTML += ev.target.value;
- 
+
 }
 
 //-- Evaluar la expresión
@@ -114,7 +114,7 @@ igual.onclick = () => {
     //-- ¡Ojo! Aquí se hace siempre!
     //-- Sólo se debe permitir que eso se haga
     //-- si se está en el estado final (OP2)
-  
+
 }
 
 //-- Poner a cero la expresión
