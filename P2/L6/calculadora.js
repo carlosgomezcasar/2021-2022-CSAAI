@@ -1,10 +1,12 @@
 console.log("Ejecutando JS...");
 
 display = document.getElementById("display")
-suma = document.getElementById("suma")
 igual = document.getElementById("igual")
 clear = document.getElementById("clear")
+suma = document.getElementById("suma")
 resta = document.getElementById("resta")
+mult = document.getElementById("multiplicacion")
+div = document.getElementById("division")
 
 //-- Estados de la calculadora
 const ESTADO = {
@@ -83,6 +85,22 @@ suma.onclick = (ev) => {
 resta.onclick = (ev) => {
 
     //-- Insertar simbolo de sumar
+    display.innerHTML += ev.target.value;
+ 
+}
+
+//-- Operación de dividir
+resta.onclick = (ev) => {
+
+    //-- Insertar simbolo de dividir
+    display.innerHTML += ev.target.value;
+ 
+}
+
+//-- Operación de multiplicar
+resta.onclick = (ev) => {
+
+    //-- Insertar simbolo de multiplicar
     display.innerHTML += ev.target.value;
  
 }
