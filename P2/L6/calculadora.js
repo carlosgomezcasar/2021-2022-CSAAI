@@ -3,11 +3,13 @@ console.log("Ejecutando JS...");
 display = document.getElementById("display")
 igual = document.getElementById("igual")
 clear = document.getElementById("clear")
+borrar = document.getElementById("borrar")
 suma = document.getElementById("suma")
 resta = document.getElementById("resta")
 multiplicacion = document.getElementById("multiplicacion")
 division = document.getElementById("division")
 exponente = document.getElementById("exponente")
+coma = document.getElementById("coma")
 
 //-- Estados de la calculadora
 const ESTADO = {
@@ -19,7 +21,7 @@ const ESTADO = {
  
  //-- Variable de estado de la calculadora
  //-- Al comenzar estamos en el estado inicial
- let estado = ESTADO.INIT;   
+ let estado = ESTADO.INIT;
 
 //-- Función de retrollamada de los digitos
 function digito(ev)
@@ -111,7 +113,6 @@ exponente.onclick = (ev) => {
 
     //-- Insertar simbolo de elevar
     display.innerHTML += ev.target.value;
-
 }
 
 //-- Evaluar la expresión
@@ -131,4 +132,9 @@ igual.onclick = () => {
 clear.onclick = () => {
   display.innerHTML = "0";
   estado = ESTADO.INIT;
+}
+
+//-- Borrar el último dígoto que se ha escrito
+borrar.onclick = () => {
+    display.innerHTML = display.innerHTML.slice(0,-1);
 }
