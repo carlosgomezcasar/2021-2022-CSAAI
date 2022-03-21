@@ -60,11 +60,6 @@ digitos = document.getElementsByClassName("digito")
 //-- Establecer la misma función de retrollamada
 //-- para todos los botones de tipo dígito
 for (let boton of digitos) {
-
-    //-- Se ejecuta cuando se pulsa un boton
-    //-- que es un dígito. Para que el código sea 
-    //-- mas legible la función de retrollamada se
-    //-- escribe como una función normal (digito)
     boton.onclick = digito;
 }
 
@@ -113,6 +108,15 @@ exponente.onclick = (ev) => {
 
     //-- Insertar simbolo de elevar
     display.innerHTML += ev.target.value;
+}
+
+//-- Poner coma
+coma.onclick = () => {
+    if(estado == ESTADO.OP1 || estado == ESTADO.OP2 || estado == ESTADO.INIT){
+        display.innerHTML += coma.innerHTML;
+        estado = ESTADO.OPERATION;
+        console.log(estado, "poner coma");
+    }
 }
 
 //-- Evaluar la expresión
