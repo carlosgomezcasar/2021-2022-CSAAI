@@ -1,0 +1,82 @@
+/* hoja de estilos css*/
+
+/* permite seleccionar todo el contenido del documento html*/
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+body {
+    background: no-repeat;
+    background-image: url("https://carlosgomezcasar.github.io/2021-2022-CSAAI-Practicas/solomillo.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.calculadora {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: inset;
+    grid-row: inherit;
+    grid-template-columns: auto;
+    border-color: black;
+    border-style: ridge;
+    display: block;
+    margin: auto;
+    width: 270px;
+    height: 400px;
+}
+
+button {
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    text-align: center;
+    margin: 3px;
+    padding: 0%;
+    background-color: whitesmoke;
+    color: brown;
+    font-weight: bold;
+    font-size: x-large;
+    border: none;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/*cuando pongas el cursor encima del boton cambia de color*/
+button:hover {
+    background-color: lightgray;
+}
+
+/*DISPLAY*/
+p {
+    width: 220px;
+    height: 30px;
+    padding: 16px;
+    display: block;
+    margin: 10px 10px 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: whitesmoke;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 10px;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+/*el botón = ocupa como dos botones*/
+#igual{
+    width: 120px;
+    height: 55px;
+}
