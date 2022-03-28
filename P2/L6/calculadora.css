@@ -1,6 +1,6 @@
 /* hoja de estilos css*/
 
-/* permite seleccionar todo el contenido del documento html*/
+
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
@@ -8,17 +8,17 @@
 
 body {
     background: no-repeat;
-    background-image: url("https://carlosgomezcasar.github.io/2021-2022-CSAAI-Practicas/solomillo.jpg");
+    background-image: url("https://raw.githubusercontent.com/carlosgomezcasar/2021-2022-CSAAI-Practicas/main/P2/L6/helados.jpg");
     background-size: cover;
     background-position: center center;
 }
 
 .calculadora {
-    margin-top: auto;
+    margin-top: 200px;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    background-color: brown;
+    background-image: "/home/alumnos/carlosge/CSAAI/Practicas/2021-2022-CSAAI/P2/L6/maxibon.png";
     padding: 15px;
     border-radius: 20px;
     box-shadow: inset;
@@ -27,7 +27,6 @@ body {
     border-color: black;
     border-style: ridge;
     display: block;
-    margin: auto;
     width: 270px;
     height: 400px;
 }
