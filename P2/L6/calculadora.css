@@ -21,7 +21,6 @@ body {
     background-color: brown;
     padding: 15px;
     border-radius: 20px;
-    box-shadow: inset;
     grid-row: inherit;
     grid-template-columns: auto;
     border-color: black;
@@ -39,7 +38,7 @@ button {
     margin: 3px;
     padding: 0%;
     background-color: whitesmoke;
-    color: brown;
+    color: brown;inset
     font-weight: bold;
     font-size: x-large;
     border: none;

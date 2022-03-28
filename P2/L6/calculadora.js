@@ -1,10 +1,10 @@
-console.log("Ejecutando JS...");
+/*funcionamiento de la calculadora*/
 
-display = document.getElementById("display")
-igual = document.getElementById("igual")
-clear = document.getElementById("clear")
-coma = document.getElementById("coma")
-del= document.getElementById("del")
+display = document.getElementById("display");
+igual = document.getElementById("igual");
+clear = document.getElementById("clear");
+coma = document.getElementById("coma");
+del = document.getElementById("del");
 
 //-- Estados de la calculadora
 const ESTADO = {
