@@ -169,6 +169,7 @@ function play(){
     
     if (ball.y <0) {
         ball.dy = -ball.dy;
+        }
 
     // pérdida de vida
     if (ball.y >= canvas.height) {
@@ -195,7 +196,7 @@ function play(){
         document.getElementById("play").style.display = "";
         console.log("he ganado");
         }
-    
+
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
