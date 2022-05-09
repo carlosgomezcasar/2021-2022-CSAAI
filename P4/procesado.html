@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación de Imágenes</title>
+    <link rel="stylesheet" href="procesado.css">
+    <script src="procesado.js" defer></script>
+    <title>Procesado de Imagen</title>
+</head>
+<body>
+    <h1>Procesado de Imagen NBA</h1>
+    <div id="original">
+            <img src="imagen1.jpg" class="imagen_inicial">
+            <img src="imagen2.jpg" class="imagen_inicial">
+            <img src="imagen3.jpg" class="imagen_inicial">
+    </div> 
+    <div id ="umbralRGB" class="hide">
+        <label for="R">Red</label><span id="range_R">255</span>
+        <input type="range" id="deslizadorrojo" min="0" max="255" value="255"/>
+        <br>
+        <label for="G">Green</label>
+        <span id="range_G">255</span>
+        <input type="range" id="deslizadorverde" min="0" max="255" value="255"/>
+        <br>
+        <label for="B">Blue</label>
+        <span id="range_B">255</span>
+        <input type="range" id="deslizadorazul" min="0" max="255" value="255"/>
+    </div>
+    <div class="seccion_filtros">
+        <div class="img_manipulada">
+            <div id="opciones" class="filter hide">
+                <button id="color" class="filter_btn">Color</button>
+                <button id="gris" class="filter_btn">Grises</button>
+                <button id="ruido" class="filter_btn">Ruido</button>
+                <button id="negativo" class="filter_btn">Negativo</button>
+                <button id="invertir" class="filter_btn">Invertir</button>
+                <button id="espejo" class="filter_btn">Espejo</button>
+            </div>
+            <h2>Imagen Manipulada</h2>
+            <br>
+            <canvas id="canvas"></canvas>
+            <br>
+            <button id="reset" type="reset" class="hide">Reset</button>
+        </div> 
+    </div>   
+    
+</body>
+</html>

@@ -1,0 +1,71 @@
+* {box-sizing: border-box;margin: 0px;text-align: center;font-family: monospace; font-weight: bold;}
+body{
+    background: no-repeat;
+    background-image: url("https://raw.githubusercontent.com/carlosgomezcasar/2021-2022-CSAAI-Practicas/main/P4/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+canvas{
+    background-color: rgb(105, 110, 110);
+    margin: auto;
+    display: block;
+    border-radius: 2px;
+}
+.filter {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: white;
+    width: 20%;
+    height: 390px;
+}
+.filter button {
+    display: block;
+    color: black;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+} 
+.filter button:hover {background-color: #ddd;}
+.filter button.active {background-color: rgb(230, 175, 144);}
+.img_manipulada{border: 1px solid #ccc;height: 390px;}
+input{cursor: pointer; width: 100%;}
+label{float: left;}
+span{float: right;}
+#umbralRGB{
+    position: absolute;
+    background-color: #f1f1f1;
+    color: rgb(10, 10, 10);
+    padding: 20px;
+    transform: translate(305px,1px);
+    font-size: 18px;
+    width: 330px;
+}
+#original img{
+    cursor: pointer;
+    box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.2);
+    margin: 15px 30px 20px 30px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+#original img:active {
+    transform: translateY(8px);
+}
+button:active {
+    box-shadow: 0 3px #5a3e3e;
+    transform: translateX(3px);
+}
+.hide{
+    display: none;
+}
+#reset{
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(230, 175, 144);
+    width: 150px;
+    font-size: 18px;
+}
